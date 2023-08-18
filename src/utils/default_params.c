@@ -43,7 +43,7 @@ double	parse_julia_params(char *str)
 
 void	start_julia(t_controller *ctrl, int argc, char **argv)
 {
-	ctrl->clr_method = 2;
+	ctrl->clr_method = 3;
 	ctrl->color = INDIGO;
 	if (argc != 2)
 	{
